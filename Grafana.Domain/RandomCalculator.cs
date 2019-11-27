@@ -20,7 +20,7 @@ namespace Grafana.Domain
 
         public decimal Calculate()
         {
-            //What should we log/calculate here? 
+            
             var startingValue = _random.Next(LowerLimit, UpperLimit);
             var functionToExecute = _functions.Single(x => x.AppliesTo(startingValue));
             return functionToExecute.Calculate(startingValue); 

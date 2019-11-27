@@ -4,4 +4,8 @@
         <TargetFramework>netcoreapp3.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="JustEat.StatsD" Version="4.1.0" />
+    </ItemGroup>
+
 </Project>
