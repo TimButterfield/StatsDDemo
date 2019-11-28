@@ -7,14 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="JustEat.StatsD" Version="4.1.0" />
+        <PackageReference Include="DataDog-Client.Signed.2.2.0" Version="2.2.0" />
         <PackageReference Include="nunit" Version="3.12.0" />
         <PackageReference Include="NUnit3TestAdapter" Version="3.13.0" />
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Grafana.Domain\Grafana.Domain.csproj" />
+      <ProjectReference Include="..\StatsDExample.Domain\StatsDExample.Domain.csproj" />
     </ItemGroup>
 
 </Project>

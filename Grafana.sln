@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafana", "Grafana\Grafana.csproj", "{5C48B63D-0923-4AF7-A3F1-FFC2C9C9FFC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsDExample", "StatsDExample\StatsDExample.csproj", "{5C48B63D-0923-4AF7-A3F1-FFC2C9C9FFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafana.Domain", "Grafana.Domain\Grafana.Domain.csproj", "{A91CE900-BAEC-48C3-AF83-66014100FC11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsDExample.Domain", "StatsDExample.Domain\StatsDExample.Domain.csproj", "{A91CE900-BAEC-48C3-AF83-66014100FC11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

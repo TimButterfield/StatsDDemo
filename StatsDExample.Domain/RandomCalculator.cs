@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Grafana.Domain.CalculationFunctions;
+using StatsDExample.Domain.CalculationFunctions;
 
-namespace Grafana.Domain
+namespace StatsDExample.Domain
 {
     public class RandomCalculator
     {

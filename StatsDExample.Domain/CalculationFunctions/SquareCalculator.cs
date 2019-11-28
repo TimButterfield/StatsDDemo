@@ -1,4 +1,4 @@
-namespace Grafana.Domain.CalculationFunctions
+namespace StatsDExample.Domain.CalculationFunctions
 {
     public class SquareCalculator : ICalculatorFuncion
     {

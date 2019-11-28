@@ -1,6 +1,6 @@
 using System;
 
-namespace Grafana.Domain.CalculationFunctions
+namespace StatsDExample.Domain.CalculationFunctions
 {
     public class SquareRootCalculator : ICalculatorFuncion
     {
