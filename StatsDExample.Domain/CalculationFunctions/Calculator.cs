@@ -5,7 +5,7 @@ namespace StatsDExample.Domain.CalculationFunctions
 {
     public class Calculator
     {
-        private string Host = "http://localhost:5001";
+        private string Host = "http://localhost:5000";
         protected HttpClient Client;
 
         protected Calculator()

@@ -15,9 +15,15 @@ namespace StatsDExample.Domain.CalculationFunctions
         {
             var response = await Client.GetAsync($"/calculators/squareroot?value={startValue}");
             
-            DogStatsd.Increment($"{nameof(SquareRootCalculator)}.{nameof(Calculate).ToLower()}.{response.StatusCode}"); 
-            
-            return Convert.ToDecimal(response.Content.ReadAsStringAsync());
+            DogStatsd.Increment($"{nameof(SquareRootCalculator)}.{nameof(Calculate).ToLower()}.{response.StatusCode}.count");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseBody = await response.Content.ReadAsStringAsync();
+                return Convert.ToDecimal(responseBody);
+            }
+
+            return 0; 
         }
     }
 }

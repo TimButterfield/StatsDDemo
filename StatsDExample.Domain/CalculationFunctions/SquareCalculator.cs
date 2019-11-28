@@ -17,7 +17,13 @@ namespace StatsDExample.Domain.CalculationFunctions
 
             DogStatsd.Increment($"{nameof(SquareCalculator)}.{nameof(Calculate).ToLower()}.{response.StatusCode}.count"); 
             
-            return Convert.ToDecimal(response.Content.ReadAsStringAsync());
+            if (response.IsSuccessStatusCode)
+            {
+                var responseBody = await response.Content.ReadAsStringAsync();
+                return Convert.ToDecimal(responseBody);
+            }
+
+            return 0; 
         }
     }
 }

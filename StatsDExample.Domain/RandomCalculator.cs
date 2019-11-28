@@ -40,7 +40,9 @@ namespace StatsDExample.Domain
             }
             catch (Exception exception)
             {
-                _logger.Error(exception, "Unable to perform calculation using {startingValue}, and {functionToExecute}", startingValue, functionToExecute);
+                var logData = new {StartingValue = startingValue, FunctionToExecute = functionToExecute.GetType().Name.ToLower()}; 
+                
+                _logger.Error(exception, "Unable to perform calculation. {@logData}", logData);
                 throw;
             }
         }

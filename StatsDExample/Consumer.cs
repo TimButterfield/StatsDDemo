@@ -65,6 +65,7 @@ namespace Grafana
         {
             _logger = new LoggerConfiguration()
                 .WriteTo.Console()
+                .WriteTo.File("log.txt")
                 .CreateLogger();
         }
     }
