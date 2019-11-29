@@ -16,6 +16,6 @@ This repo is a VERY simple piece of code to get us talking about and thinking ab
 
 * Read the code, gain a quick understanding and work out if there is any metric you'd want to record, and why. Or why you wouldn't want to record anything. 
 
-If you're looking for a starting point, go to https://github.com/TimButterfield/StatsDDemo/blob/master/StatsDExample/Consumer.cs
+If you're looking for a starting point, go to ../StatsDExample/Consumer.cs
 
 We'll discuss ideas, and once we've done that I'll demonstrate to you what's possible (the how). It doesn't matter if you don't have any thoughts on the metics, there's no pressure to come up with an answer, since the goal is discussion.
