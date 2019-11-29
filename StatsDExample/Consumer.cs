@@ -7,7 +7,7 @@ namespace StatsDExample
 {
     public class Consumer
     {
-        private const string ServiceName = "Alto"; 
+        private const string ServiceName = "ProductFoo"; 
             
         [SetUp]
         public void Setup()
