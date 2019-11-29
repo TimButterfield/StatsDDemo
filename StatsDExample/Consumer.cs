@@ -12,7 +12,7 @@ namespace Grafana
     public class Consumer
     {
         private static ILogger _logger;
-        private const string ServiceName = "Alto"; 
+        private const string ServiceName = "ProductFoo"; 
             
         [SetUp]
         public void Setup()
