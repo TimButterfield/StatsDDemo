@@ -1,4 +1,4 @@
-#StatsD Example
+# StatsD Example
 
 ### Instrumenting our code is essential to
 
